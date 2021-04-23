@@ -11,11 +11,60 @@
     font-size: xx-large;
     /* font-weight: 800; */
 }
-#first{
-    height:200px;
-    margin-bottom: auto;
-}
+/* #middle{
+    height:200px; */
+    /* margin-bottom: 200px; */
+    /* padding-bottom: 30%; */
+    /* display:flex; */
+    /* float: right; */
+    /* margin-right: 0%;
+} */
 #logo{
     margin-left: 40%;
     margin-top: 10%;
+}
+#first img{
+    float: right;
+  
+}
+#happy{
+    background-color:honeydew;
+    /* margin-bottom: 20px; */
+    height: 80px;
+    margin-right: 50px solid grey;
+    /* padding-right:70px ; */
+    /* padding-left: 50px; */
+}
+#party{
+    background-color: tomato;
+    color: white;
+    height:80px;  
+    /* padding-right:50px solid tomato; */
+    /* padding-left: 5%; */
+    /* margin-left:50px solid tomato; */
+    width:100%; */
+
+}
+#middle{
+    /* display:inline-block; */
+    height: 250px;
+    display:flex;
+    flex-direction: column;
+    width:20%;
+}
+#ffood{
+    display: flex;
+    flex-direction: column;
+    height:400vh;
+    width:300px;
+}
+#fastfood{
+    display:flex;
+    /* flex-wrap: wrap; */
+}
+.one{
+    display: flex;
+    flex-direction:row;
+    height:30vh;
+    width: 1700px;
 }
