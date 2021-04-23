@@ -5,3 +5,17 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+#intro h1{
+    text-align: center;
+    color:white;
+    font-size: xx-large;
+    /* font-weight: 800; */
+}
+#first{
+    height:200px;
+    margin-bottom: auto;
+}
+#logo{
+    margin-left: 40%;
+    margin-top: 10%;
+}
