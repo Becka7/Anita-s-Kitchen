@@ -8,7 +8,7 @@
 #intro h1{
     text-align: center;
     color:white;
-    font-size: xx-large;
+    /* font-size: xx-large; */
     /* font-weight: 800; */
 }
 /* #middle{
@@ -30,8 +30,8 @@
 #happy{
     background-color:honeydew;
     /* margin-bottom: 20px; */
-    height: 80px;
-    margin-right: 50px solid grey;
+    /* height: 80px; */
+    /* margin-right: 50px solid grey; */
     /* padding-right:70px ; */
     /* padding-left: 50px; */
 }
@@ -42,7 +42,7 @@
     /* padding-right:50px solid tomato; */
     /* padding-left: 5%; */
     /* margin-left:50px solid tomato; */
-    width:100%; */
+    /* width:100%; */ */
 
 }
 #middle{
@@ -55,16 +55,72 @@
 #ffood{
     display: flex;
     flex-direction: column;
-    height:400vh;
+    height:40vh;
     width:300px;
+    border:  10px solid white;
+    /* padding: 10px solid grey; */
+    margin-right: 200px;
+    box-shadow: 5px 5px 10px tomato;
 }
 #fastfood{
     display:flex;
-    /* flex-wrap: wrap; */
+    width:70%;
+    margin-left: 20%;
+    /* margin-right: 0%; */
+    margin-bottom: 50px;
+      
 }
 .one{
     display: flex;
     flex-direction:row;
-    height:30vh;
-    width: 1700px;
+    height:40vh;
+    width: 100%;
+    margin-bottom: 100px;
+}
+#wine{
+    display: flex;
+    flex-direction:row;
+    height:40vh;
+    width:300px;
+    border: 10px solid white;
+    margin-left: 200px;
+    box-shadow:5px 5px 10px tomato;
+}
+#drinks{
+    display: flex;
+    width: 70%;
+    /* align-items: center; */
+    margin-left: 20%;
+    margin-bottom: 50px;
+}
+#three{
+    background-image:url(foodsBg.jpg);
+    height:80vh;
+    margin-bottom: 100px;
+}
+table{
+    /* background-color: white;
+    margin-top: 30px; */
+   
+}
+#chicken{
+    margin-left:20%;
+    margin-top: 10%;
+    /* background-color: white; */
+}
+#about{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 20%;
+    justify-content: space-around;
+    box-shadow: 5px 5px 5px grey;
+    border: 5px solid white;
+}
+#about h2{
+    text-align: center;
+}
+#custo{
+    margin-right: 40px;
+    width:200%;
 }
