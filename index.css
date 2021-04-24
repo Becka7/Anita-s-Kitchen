@@ -1,9 +1,12 @@
+*{
+    margin: 0%;
+}
 #intro{
     height:90vh;
     width:100%;
     background-image: url(/landing.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    padding-top: 20px;
 }
 #intro h1{
     text-align: center;
@@ -15,9 +18,9 @@
     height:200px; */
 #fastfood{
     display:flex;
-    width:80%;
-    margin-left: 0%;
-    margin-right: 0%;
+    width:90%;
+    /* margin-left: 0%;
+    margin-right: 0%; */
     margin-bottom: 50px;
 }
 .one{
@@ -30,21 +33,25 @@
 #wine{
     display: flex;
     flex-direction:row;
-    height:40vh;
-    width:300px;
-    border: 10px solid white;
+    height: 45vh;
+    /* width:300px; */
     margin-left: 200px;
-    box-shadow:5px 5px 10px tomato;
+    /* border-bottom: 5px solid  white; 
+    border-right: 5px solid white; */
+    box-shadow: 5px 5px 5px grey;
+
+   
 }
 #drinks{
     display: flex;
-    width: 70%;
+    width: 80%; 
      margin-bottom: 200px; 
     /* padding-bottom: 30%; */
     /* display:flex; */
     /* float: right; */
      /* margin-right: 0%; */
      margin-left: 200px;
+     /* margin-right: 100px; */
 }
 #logo{
     margin-left: 40%;
@@ -59,15 +66,18 @@
     /* margin-bottom: 20px; */
     /* height: 80px; */
     /* margin-right: 50px solid grey; */
-    /* padding-right:70px ; */
+     padding-left:50px ;
     /* padding-left: 50px; */
-    padding-bottom: 20px;;
+    padding-bottom: 40px;
+    padding-top: 20px;
 }
 #party{
     background-color: tomato;
     color: white;
     height:80px;  
-    padding-bottom: 30px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-left: 50px;
     /* padding-right:50px solid tomato; */
     /* padding-left: 5%; */
     /* margin-left:50px solid tomato; */
@@ -84,13 +94,15 @@
 #ffood{
     display: flex;
     flex-direction: column;
-    height:40vh;
-    width:300px;
-    border:  10px solid white;
+    /* height:50vh; */
+    width:350px;
+    /* border:  10px solid white; */
     /* padding: 10px solid grey; */
     margin-right: 200px;
-    box-shadow: 5px 5px 10px tomato;
+    /* box-shadow: 5px 5px 10px tomato; */
     margin-left: 20%;
+    border:5px solid white;
+    box-shadow: 5px 5px 5px grey;
    
 }
 /* ms: center; */
@@ -122,6 +134,8 @@ table{
     box-shadow: 5px 5px 5px grey;
     border: 2px solid whitesmoke;
     margin-bottom: 10%;
+    /* height:30vh; */
+    padding:30px;
 }
 #about h2{
     text-align: center;
@@ -188,6 +202,7 @@ footer{
 #bottom{
     display: flex;
     margin-left: 40%;
+    padding-bottom: 20px;
 }
 #bottom img{
     margin-right: 15px;
@@ -206,4 +221,49 @@ footer{
 form{
     color: white;
     font-size: 2em;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color:white;
+    margin:10px;
+    transition: 0.4s;
+
+  }
+  #navigation{
+      display:none;
+      flex-direction: row;
+      height:100%;
+      width:100%;
+      background-color: tomato;
+     
+  }
+  li{
+      text-decoration: none !important;
+      color: black;
+      font-size:200% ;
+    
+      
+  }
+  li>a{
+      color: #000;
+
+  }
+  ul {
+    list-style-type: none;
+    padding-bottom :700px;
+    color: black;
+    background-color: tomato;
+    text-align: center;
+   
+}
+#close{
+    margin-left: 80%;
+    color: black;
+}
+#animation{
+    padding: 20%;
+}#dinner{
+    /* padding-right:50px; */
 }
