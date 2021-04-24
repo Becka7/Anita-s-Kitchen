@@ -6,9 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anita's kitchen</title>
     <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/0fdca1ab5d.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
-    <div id="intro">
+    <div id ="navigation">
+       
+       <nav>
+    <ul> 
+        <button  id="close" onclick="closeNav()"><i class="fas fa-times"></i></button>
+        <li style="padding-top: 20%;"> <a href="#fastfood">Menu</a></li>
+        <li><a href="#three">Events</a></li>
+        <li><a href="#foot">Contacts</a></li>
+    </ul>
+     
+    </nav>
+    
+    
+ 
+    </div>
+    
+    <div id="intro" style="margin-top: 0% !important;">
+        <!-- <div id="navbar"> -->
+            <!-- <div id ="navi">
+               
+               
+            </div> -->
+            <div class="animation" onclick="openNav()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+        <!-- </div> -->
         <img id="logo" src="logoBig.png" >
         <h1>We provide the Best food at </h1>
         <h1>the <strong>Right price</strong></h1>
@@ -117,3 +146,23 @@
          <p style="margin-left: 40%;">2016 Menu Restaurant</p>
       
   </footer>
+  <script>
+      function openNav(){
+        //   alert("here")
+        var nav=document.getElementById("navigation");
+        // alert(nav)
+        if(nav.style.display=== "none"){
+            nav.style.display="inline";
+        }
+        else{
+            nav.style.display="none";
+
+        }
+          
+      }
+      function closeNav(){
+        //   alert("oops")
+          var navbar=document.getElementById("navigation");
+          navbar.style.display="none";
+      }
+  </script>
