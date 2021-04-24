@@ -1,5 +1,7 @@
 *{
     margin: 0%;
+    /* font-family: 'Handlee', cursive;
+    font-size:100%; */
 }
 #intro{
     height:90vh;
@@ -12,7 +14,7 @@
     text-align: center;
     color:white;
     /* font-size: xx-large; */
-    /* font-weight: 800; */
+    font-weight:500;
 }
 /* #middle{
     height:200px; */
@@ -22,6 +24,7 @@
     /* margin-left: 0%;
     margin-right: 0%; */
     margin-bottom: 50px;
+    
 }
 .one{
     display: flex;
@@ -35,23 +38,28 @@
     flex-direction:row;
     height: 45vh;
     /* width:300px; */
-    margin-left: 200px;
+    /* margin-left: 200px; */
     /* border-bottom: 5px solid  white; 
     border-right: 5px solid white; */
-    box-shadow: 5px 5px 5px grey;
+    /* box-shadow: 5px 5px 5px grey; */
+    margin-left: 20%;
+    width:40%;
 
    
 }
 #drinks{
     display: flex;
-    width: 80%; 
-     margin-bottom: 200px; 
+    /* width: 80%;  */
+     margin-bottom:10%;
     /* padding-bottom: 30%; */
     /* display:flex; */
     /* float: right; */
      /* margin-right: 0%; */
-     margin-left: 200px;
+     margin-left: 10%;
      /* margin-right: 100px; */
+     margin-top: 10%;
+     box-shadow: 5px 5px 5px grey;
+     /* margin-right:10% */
 }
 #logo{
     margin-left: 40%;
@@ -116,8 +124,18 @@
     
 }
 table{
-    background-color: white;
-    margin-top: 30px;
+    /* background-color: white; */
+    /* margin-top 30%; */
+    text-align: center;
+    margin-left: 20%;
+    width:70%;
+    background-color: grey;
+    color: tomato;
+    margin-right:40%;
+    
+    
+
+   
    
 }
 #chicken{
@@ -149,7 +167,7 @@ table{
     /* display: flex; */
     /* flex-direction: column; */
      /* margin-left: 10%; */
-    margin-top: 10%;
+    /* margin-top:30%; */
   
 }
 #menu{
@@ -166,6 +184,8 @@ table{
 }
 #dwine{
     text-align:right;
+    /* margin-right: 20%; */
+    
 }  
 #foot{
     background-image: url(/subscribe.jpg);
@@ -267,3 +287,24 @@ form{
 }#dinner{
     /* padding-right:50px; */
 }
+#chicken img{
+    padding-left: 20px;
+}
+#chicken{
+    background-color: white;
+    padding:50px;
+    margin-left:10%;
+    margin-right:10%;
+}
+#gallery{
+    color: tomato;
+    background-color: white;
+    margin-left: 50%;
+    font-size: 150%;
+}#gallery2{
+    color: tomato;
+    background-color: white;
+    margin-right: 50%;
+    font-size: 150%;
+}
+
