@@ -9,7 +9,8 @@
 #intro{
     height:90vh;
     width:100%;
-    background-image: url(/images/landing.jpg);
+    /* background-image: url(/images/landing.jpg); */
+    background-image: url(./images/landing.jpg);
     background-repeat: no-repeat;
     padding-top: 20px;
 }
