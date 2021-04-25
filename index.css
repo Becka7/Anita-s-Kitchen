@@ -122,27 +122,44 @@
     background-image:url(foodsBg.jpg);
     height:90vh;
     margin-bottom: 100px;
+    padding-top: 10px;
     
 }
 table{
     /* background-color: white; */
-    /* margin-top 30%; */
+    /* margin-top:30%;  */
     text-align: center;
-    margin-left: 20%;
-    width:70%;
-    background-color: grey;
+    margin-left: 2%;
+    width:97%;
+    /* background-color: grey; */
     color: tomato;
     margin-right:40%;
-    
-    
+    /* padding-bottom: 3%; */
+    /* border: 2px solid red; */
+    margin-bottom: 5%;
+    /* border-collapse: collapse; */  
+   
+}
+th ,td{
+    /* border:2px 2px solid black; */
+    padding-bottom: 3%;
+    background-color: rgb(211, 207, 207);
+    color: black;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
 
-   
-   
+}
+#th1{
+    border-collapse: collapse;
+    background-color: white;
+    color: tomato;
+    border-bottom: white;
 }
 #chicken{
     margin-left:20%;
-    margin-top: 10%;
+     margin-top:5%; 
     /* background-color: white; */
+    /* margin-bottom: 10%; */
 }
 #about{
     display: flex;
@@ -307,5 +324,11 @@ form{
     background-color: white;
     margin-right: 50%;
     font-size: 150%;
+}
+#labels{
+    color: tomato;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
