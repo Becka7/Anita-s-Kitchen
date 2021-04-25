@@ -332,3 +332,48 @@ form{
     justify-content: space-around;
 }
 
+#break{
+    
+    display: block;
+    /* width: 100%; */
+    /* height: auto; */
+    transition: .5s ease;
+    backface-visibility: hidden;
+    
+}
+#break:hover{
+    opacity:0.5;
+
+    /* opacity:0.1%; */
+}
+#break p{
+    top: 50%; 
+    left: 30%;
+    position:relative;
+}
+/* #caption{
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+
+} */
+#caption:hover{
+    opacity: 1;
+}
+#lunch{
+    display:block;
+    transition: 1s ease;
+    backface-visibility: hidden;
+}
+#lunch:hover{
+    opacity: 0.5;
+}
+#dinner{
+    display:block;
+    transition: 1s ease;
+
+}
+#dinner:hover{
+    opacity:0.5;
+}
+
