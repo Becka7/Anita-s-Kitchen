@@ -9,7 +9,7 @@
 #intro{
     height:90vh;
     width:100%;
-    background-image: url(/landing.jpg);
+    background-image: url(/images/landing.jpg);
     background-repeat: no-repeat;
     padding-top: 20px;
 }
@@ -122,7 +122,7 @@
     margin-bottom: 50px; */
 /* } */ 
 #three{
-    background-image:url(foodsBg.jpg);
+    background-image:url(/images/foodsBg.jpg);
     height:90vh;
     margin-bottom: 100px;
     padding-top: 10px;
@@ -209,7 +209,7 @@ th ,td{
     
 }  
 #foot{
-    background-image: url(/subscribe.jpg);
+    background-image: url(/images/subscribe.jpg);
     height:40vh;
     align-items: center;
     text-align: center;
