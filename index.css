@@ -77,10 +77,11 @@
     /* margin-bottom: 20px; */
     /* height: 80px; */
     /* margin-right: 50px solid grey; */
-     padding-left:50px ;
+     padding-left:30px ;
     /* padding-left: 50px; */
-    padding-bottom: 40px;
+    padding-bottom: 45px;
     padding-top: 20px;
+    font-size:85%;
 }
 #party{
     background-color: tomato;
@@ -88,7 +89,7 @@
     height:80px;  
     padding-bottom:25px;
     padding-top: 30px;
-    padding-left: 50px;
+    padding-left: 30px;
     /* padding-right:50px solid tomato; */
     /* padding-left: 5%; */
     /* margin-left:50px solid tomato; */
@@ -344,6 +345,7 @@ form{
     /* height: auto; */
     transition: .5s ease;
     backface-visibility: hidden;
+    /* z-index: -1; */
     
 }
 #break:hover{
@@ -351,18 +353,35 @@ form{
 
     /* opacity:0.1%; */
 }
- #break p{
-    top: 20%;
+ #break h2{
+    top: 40%;
     left: 30%;
-    position:relative;
+    position: relative;
+    margin-right:40%;
+    color:white;
+    
 } 
+#lunch h2{
+    top: 40%;
+    left: 30%;
+    position: relative;
+    margin-right:40%;
+    color:white;
+}
+#dinner h2{
+    top: 40%;
+    left: 30%;
+    position: relative;
+    margin-right:40%;
+    color:white;
+}
  #caption{
     position: relative;
     text-align: center;
     opacity: 0;
     
 }
-#caption:hover{
+#break h2:hover{
     opacity: 1;
 }
 #lunch{
