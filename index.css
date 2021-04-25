@@ -351,17 +351,17 @@ form{
 
     /* opacity:0.1%; */
 }
-#break p{
-    top: 50%; 
+ #break p{
+    top: 20%;
     left: 30%;
     position:relative;
-}
-/* #caption{
-    position: absolute;
+} 
+ #caption{
+    position: relative;
     text-align: center;
     opacity: 0;
-
-} */
+    
+}
 #caption:hover{
     opacity: 1;
 }
